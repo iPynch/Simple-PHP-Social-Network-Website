@@ -16,6 +16,7 @@ It supports the following functionalities:
 * Posts are displayed in chronological order from latest to oldest.
 * Home also shows your own posts.
 * Initially created accounts have a default profile picture based on their gender.
+* Different users may suffer layout inconsistency or rather not the required smooth interface if the specified font isn't installed on the user's device (to be solved).
 
 <br>
 
