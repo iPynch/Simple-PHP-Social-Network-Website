@@ -15,6 +15,7 @@ It supports the following functionalities:
 * Home shows all public posts. It doesn't show private posts except if the poster is on your friend list.
 * Posts are displayed in chronological order from latest to oldest.
 * Home also shows your own posts.
+* Initially created accounts have a default profile picture based on their gender.
 
 <br>
 
