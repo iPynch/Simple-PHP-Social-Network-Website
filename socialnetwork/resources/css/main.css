@@ -1,0 +1,323 @@
+/*============== MAIN SETTINGS ============*/
+
+body {
+    margin: 0;
+    font-family: Fontin, Arial, Verdana;
+    font-size: 18px;
+    background-color: #e9ebee;
+}
+
+input {
+    font-family: Fontin, Arial, Verdana;
+    width: 100%;
+    font-size: 18px;
+    padding: 2px;
+}
+
+button {
+    font-family: Fontin, Arial, Verdana;
+    font-size: 18px;
+}
+
+input[type=radio] {
+    width: auto;
+}
+
+textarea {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+span {
+    color: red;
+}
+
+.required {
+    color: red;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1068px;
+}
+
+
+/*============== NAVBAR SETTINGS ============*/
+
+.usernav {
+    background-color: #4267b2;
+    overflow: auto;
+}
+
+.usernav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+.usernav ul li {
+    display: inline;
+}
+
+.usernav ul li a {
+    display: inline-block;
+    color: white;
+    padding: 8px 16px;
+}
+
+.usernav ul li a:hover {
+    background-color: #23385f;
+}
+
+
+/* Search */
+
+.usernav .globalsearch {
+    margin: 0;
+    width: 60%;
+    background-color: #4267b2;
+}
+
+.usernav .globalsearch input[type=text] {
+    border: none;
+    width: auto;
+    padding: 2px 6px;
+}
+
+.usernav .globalsearch input[type=submit] {
+    background-color: #e9ebee;
+    color: #23385f;
+    border: none;
+    margin: 5px 5px 5px 0;
+    padding: 2px 6px;
+    width: auto;
+}
+
+.usernav .globalsearch input[type=submit]:hover {
+    background-color: #23385f;
+    color: white;
+}
+
+.usernav .globalsearch select {
+    font-family: Fontin;
+    font-size: 18px;
+    margin-left: 5px;
+    padding: 0.9px 0px;
+    vertical-align: -1px;
+}
+
+
+/*============== POSTS SETTINGS ============*/
+
+
+/* General Layout of Post */
+
+.post,
+.createpost {
+    background-color: white;
+    box-shadow: 0 0 5px #4267b2;
+    margin: auto;
+    width: 650px;
+    padding: 10px 16px;
+    overflow: auto;
+}
+
+
+/* Create Post Control */
+
+.createpostbuttons {
+    width: 50%;
+    margin: auto;
+    overflow: auto;
+}
+
+.createpostbuttons img {
+    display: inline-block;
+    width: 12%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.createpostbuttons label {
+    cursor: pointer;
+}
+
+.createpostbuttons input[type="file"] {
+    display: none;
+}
+
+.createpostbuttons input[type=submit] {
+    width: 86%;
+    float: right;
+    background-color: #4267b2;
+}
+
+.createpostbuttons input[type=submit]:hover {
+    background-color: #23385f;
+}
+
+
+/* Post */
+
+.post .public {
+    float: right;
+    text-align: center;
+    width: auto;
+}
+
+
+/*============== HEADINGS AND LINKS ============*/
+
+h1 {
+    font-family: Fontin SmallCaps;
+    color: #23385f;
+    font-weight: normal;
+    text-align: center;
+}
+
+h2 {
+    font-family: Fontin SmallCaps;
+    color: red;
+    font-weight: normal;
+    font-size: 120%;
+    margin-bottom: 0;
+}
+
+h3,
+a.profilelink {
+    font-family: Fontin SmallCaps;
+    color: red;
+    font-weight: normal;
+    font-size: 120%;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: 12px;
+    text-decoration: none;
+}
+
+a.profilelink:hover {
+    text-decoration: underline;
+}
+
+
+/* Horizontal Line after H2 */
+
+hr {
+    margin-bottom: 30px;
+    margin-top: 0px;
+    border-color: red;
+}
+
+
+/*============== TAB SETTINGS ============*/
+
+div.tab {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+div.tab button {
+    background-color: #4267b2;
+    border: none;
+    outline: none;
+    color: white;
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+    width: 50%;
+}
+
+div.tab button:hover {
+    background-color: #314e85;
+}
+
+
+/*==============DEFAULT TAB SETTINGS ============*/
+
+div.tab button.active {
+    background-color: #23385f;
+}
+
+#signup {
+    display: none;
+}
+
+
+/*============== SUBMIT BUTTONS ============*/
+
+input[type=submit] {
+    color: white;
+    cursor: pointer;
+    background-color: #23385f;
+    border: none;
+    padding: 8px;
+}
+
+.container input[type=submit] {
+    background-color: #4267b2;
+}
+
+.container input[type=submit]:hover {
+    background-color: #23385f;
+}
+
+
+/*============= SPECIFIC BUTTONS MODIFICATION ========*/
+
+input[type=checkbox] {
+    width: fit-content;
+}
+
+
+/*============= FRIENDS FRAMES ========*/
+
+.frame {
+    width: 200px;
+    display: inline-block;
+    box-shadow: 0 0 5px #4267b2;
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+/*============= SUB CONTAINERS ========*/
+
+.userquery {
+    background-color: white;
+    box-shadow: 0 0 5px #4267b2;
+    margin: auto;
+    width: 320px;
+    padding: 20px 20px 0px 20px;
+    overflow: auto;
+    text-align: center;
+}
+
+.userquery a {
+    text-decoration: none;
+}
+
+.userquery a:hover {
+    text-decoration: underline;
+}
+
+
+/*============= DISABLED BUTTONS ========*/
+
+input:disabled {
+    cursor: auto;
+}
+
+#special:hover {
+    background-color: #4267b2;
+}
