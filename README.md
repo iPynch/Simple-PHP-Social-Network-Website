@@ -42,7 +42,7 @@ It supports the following functionalities:
 <br>
 
 ## To install this application:
-* create a database from DDM.sql file which is found within database folder.
+* Create a database from DDM.sql file which is found within database folder.
 * For a simple data test, use DML.sql to create a simple instance of data (passwords of users are equivalent to the first names).
 * You need a webserver (either local or global) to launch .php files. Programs like Xampp, WampServer provides a local webserver that uses MySQL database.
 * copy all other files to your a new folder (folder name is of your choice that is the website name) inside htdocs folder within your program and run.
