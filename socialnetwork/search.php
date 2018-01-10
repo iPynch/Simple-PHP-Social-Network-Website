@@ -1,5 +1,5 @@
 <?php
-
+//
 require 'functions/functions.php';
 session_start();
 // Check whether user is logged on or not
