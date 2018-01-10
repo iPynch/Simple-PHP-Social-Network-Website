@@ -20,7 +20,7 @@ It supports the following functionalities:
 
 <br>
 
-## Website Layout and Interface Looks Like:
+## Few Screenshots to demonstrate website layout and interface:
 
 ![alt text](https://imgur.com/QZeud9E.png)
 ![alt text](https://imgur.com/fy5FLIX.png)
